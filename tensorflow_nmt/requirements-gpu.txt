@@ -1,0 +1,6 @@
+numpy==1.23.5
+protobuf==3.19.6
+sacrebleu==2.5.1
+setuptools==69.5.1
+tensorflow==2.10.1
+wheel==0.45.1

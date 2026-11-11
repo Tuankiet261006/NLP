@@ -1,0 +1,15 @@
+name: tf-nmt-gpu
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10.22
+  - cudatoolkit=11.2.2
+  - cudnn=8.1.0.77
+  - pip=24.3.1
+  - pip:
+      - setuptools==69.5.1
+      - wheel==0.45.1
+      - numpy==1.23.5
+      - protobuf==3.19.6
+      - sacrebleu==2.5.1
+      - tensorflow==2.10.1

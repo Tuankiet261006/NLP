@@ -1,0 +1,45 @@
+{
+  "seed": 42,
+  "data": {
+    "train_src": "shared/data/processed/train.en",
+    "train_tgt": "shared/data/processed/train.vi",
+    "dev_src": "shared/data/processed/tst2012.en",
+    "dev_tgt": "shared/data/processed/tst2012.vi",
+    "test_src": "shared/data/processed/tst2013.en",
+    "test_tgt": "shared/data/processed/tst2013.vi",
+    "src_vocab": "shared/data/processed/vocab.en",
+    "tgt_vocab": "shared/data/processed/vocab.vi",
+    "max_length": 160
+  },
+  "model": {
+    "embedding_dim": 512,
+    "units": 512,
+    "decoder_layers": 2,
+    "encoder_type": "bidirectional",
+    "attention": "scaled_luong",
+    "dropout": 0.2
+  },
+  "training": {
+    "epochs": 10,
+    "batch_size": 32,
+    "shuffle_buffer": 20000,
+    "learning_rate": 1.0,
+    "decay_start_epoch": 6,
+    "decay_factor": 0.5,
+    "gradient_clip_norm": 5.0,
+    "mixed_precision": true,
+    "checkpoint_metric": "dev_loss",
+    "steps_per_stats": 100,
+    "dev_bleu_max_sentences": 64
+  },
+  "decoding": {
+    "beam_width": 3,
+    "max_length": 160,
+    "length_penalty": 0.6
+  },
+  "artifacts": {
+    "checkpoint_dir": "tensorflow_nmt/checkpoints/tf2_gpu",
+    "log_dir": "tensorflow_nmt/logs/tf2_gpu",
+    "output_dir": "tensorflow_nmt/outputs/tf2_gpu"
+  }
+}

@@ -1,0 +1,38 @@
+# Generated datasets
+shared/data/raw/*
+shared/data/processed/*
+shared/data/.hf_cache/
+!shared/data/raw/.gitkeep
+!shared/data/processed/.gitkeep
+!shared/data/manifest.example.json
+
+# Local caches, installers, archives, and nested repositories
+.cache/
+*.zip
+tensorflow_nmt/vendor/nmt/
+
+# Model artifacts
+transformer_colab/checkpoints/*
+transformer_colab/logs/*
+transformer_colab/outputs/*
+tensorflow_nmt/checkpoints/*
+tensorflow_nmt/logs/*
+tensorflow_nmt/outputs/*
+shared/evaluation/results/*
+reports/figures/*
+
+# Keep empty artifact directories
+!.gitkeep
+
+# Python/Jupyter
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv*/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+

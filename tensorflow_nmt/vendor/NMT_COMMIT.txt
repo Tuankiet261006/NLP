@@ -1,0 +1,5 @@
+repository=https://github.com/tensorflow/nmt
+commit=0be864257a76c151eef20ea689755f08bc1faf4e
+commit_date=2019-02-13
+subject=Fixing #405
+

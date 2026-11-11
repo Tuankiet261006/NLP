@@ -1,0 +1,14 @@
+name: tf-nmt-legacy
+channels:
+  - conda-forge
+dependencies:
+  - python=3.7.12
+  - pip=24.0
+  - pip:
+      - setuptools==59.8.0
+      - wheel==0.42.0
+      - numpy==1.18.5
+      - protobuf==3.20.3
+      - h5py==2.10.0
+      - tensorflow==1.15.0
+

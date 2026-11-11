@@ -1,0 +1,3 @@
+method,sentences,bleu,chrf,training_seconds,inference_seconds,sentences_per_second,trainable_parameters,device,framework,seed
+transformer,1268,0.4185442602621729,8.54679640216991,1281.537892900058,549.190944199916,2.3088508894611777,75195826,cuda (NVIDIA GeForce RTX 3060 Laptop GPU),PyTorch 2.14.1+cu130,42
+tensorflow_nmt_tf2,1268,1.4241598449627908,10.94709045028833,,3679.5526221001055,0.3446071113059089,63469483,/physical_device:GPU:0,TensorFlow 2.10.1,

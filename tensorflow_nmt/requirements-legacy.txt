@@ -1,0 +1,7 @@
+h5py==2.10.0
+numpy==1.18.5
+protobuf==3.20.3
+setuptools==59.8.0
+tensorflow==1.15.0
+wheel==0.42.0
+

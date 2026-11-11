@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-11-10T22:02:42.423788+00:00",
+  "dataset": "IWSLT 2015 English-Vietnamese",
+  "direction": "en-vi",
+  "source_url": "https://nlp.stanford.edu/projects/nmt/data/iwslt15.en-vi/",
+  "normalization": "NFC",
+  "max_train_tokens": 160,
+  "max_vocab_size": 0,
+  "input_dir": "D:\\Đại học\\Năm 3 - Kì 1\\NLP\\shared\\data\\raw",
+  "output_dir": "D:\\Đại học\\Năm 3 - Kì 1\\NLP\\shared\\data\\processed",
+  "splits": {
+    "train": {
+      "input_pairs": 133317,
+      "output_pairs": 132468,
+      "dropped_empty": 151,
+      "dropped_too_long": 77,
+      "dropped_cross_split": 621
+    },
+    "tst2012": {
+      "input_pairs": 1553,
+      "output_pairs": 1553,
+      "dropped_empty": 0,
+      "dropped_too_long": 0
+    },
+    "tst2013": {
+      "input_pairs": 1268,
+      "output_pairs": 1268,
+      "dropped_empty": 0,
+      "dropped_too_long": 0
+    }
+  },
+  "vocabularies": {
+    "en": {
+      "size": 53925,
+      "unique_train_tokens": 53922,
+      "total_train_tokens": 2686874
+    },
+    "vi": {
+      "size": 25513,
+      "unique_train_tokens": 25510,
+      "total_train_tokens": 3287695
+    }
+  },
+  "raw_files": {
+    "train.en": {
+      "path": "train.en",
+      "sha256": "c26dfeed74b6bf3752f5ca552f2412456f0de153f7c804df8717931fb3a5c78a",
+      "bytes": 13603614,
+      "lines": 133317
+    },
+    "train.vi": {
+      "path": "train.vi",
+      "sha256": "707206edf2dc0280273952c7b70544ea8a1363aa69aaeb9d70514b888dc3067d",
+      "bytes": 18074646,
+      "lines": 133317
+    },
+    "tst2012.en": {
+      "path": "tst2012.en",
+      "sha256": "b8fbcd0d4199d41276421d1f7228298df67dd9e2c5c134c2ee8cdf3ec27801e2",
+      "bytes": 140250,
+      "lines": 1553
+    },
+    "tst2012.vi": {
+      "path": "tst2012.vi",
+      "sha256": "01004078b3f36b0c46e81b65fc6851230b3c823405c76d1d82ef3b786b512ff0",
+      "bytes": 188396,
+      "lines": 1553
+    },
+    "tst2013.en": {
+      "path": "tst2013.en",
+      "sha256": "3860ce60bc5b85d96cc2d3d580cf1bc9d62440e939c1b964676d3607c4e8f1df",
+      "bytes": 132264,
+      "lines": 1268
+    },
+    "tst2013.vi": {
+      "path": "tst2013.vi",
+      "sha256": "29af16842808da2812b8fd4d47fc05d082ba870e60ab7755090ad04b380994cd",
+      "bytes": 183855,
+      "lines": 1268
+    }
+  },
+  "processed_files": {
+    "train.en": {
+      "path": "train.en",
+      "sha256": "12fe8d423c8bc1eb0b39aabb55c76703d250a8397a3ec97457986e4d51da74aa",
+      "bytes": 13510673,
+      "lines": 132468
+    },
+    "train.vi": {
+      "path": "train.vi",
+      "sha256": "925d62acd0689c641a2dfd076eabf91fe9a57fb851a7f1e2df4b5d841f71d08b",
+      "bytes": 17947785,
+      "lines": 132468
+    },
+    "tst2012.en": {
+      "path": "tst2012.en",
+      "sha256": "b8fbcd0d4199d41276421d1f7228298df67dd9e2c5c134c2ee8cdf3ec27801e2",
+      "bytes": 140250,
+      "lines": 1553
+    },
+    "tst2012.vi": {
+      "path": "tst2012.vi",
+      "sha256": "01004078b3f36b0c46e81b65fc6851230b3c823405c76d1d82ef3b786b512ff0",
+      "bytes": 188396,
+      "lines": 1553
+    },
+    "tst2013.en": {
+      "path": "tst2013.en",
+      "sha256": "3860ce60bc5b85d96cc2d3d580cf1bc9d62440e939c1b964676d3607c4e8f1df",
+      "bytes": 132264,
+      "lines": 1268
+    },
+    "tst2013.vi": {
+      "path": "tst2013.vi",
+      "sha256": "29af16842808da2812b8fd4d47fc05d082ba870e60ab7755090ad04b380994cd",
+      "bytes": 183855,
+      "lines": 1268
+    },
+    "vocab.en": {
+      "path": "vocab.en",
+      "sha256": "8eb6f7606c94dde777b827f32a11f55a3f6f853eca30ed1ec3526c2e6ababe4f",
+      "bytes": 485977,
+      "lines": 53925
+    },
+    "vocab.vi": {
+      "path": "vocab.vi",
+      "sha256": "146bcd8f292f47e912b7f86de4ab54534a4a2ac22e4ff67c9d24bdd822f623de",
+      "bytes": 176931,
+      "lines": 25513
+    }
+  }
+}
